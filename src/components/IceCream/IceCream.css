@@ -1,0 +1,46 @@
+.IceCream {
+    width: 100%;
+    margin: auto;
+    height: 250px;
+    overflow: scroll;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+.IceCream::-webkit-scrollbar {
+    width: 15px;
+}
+
+.IceCream::-webkit-scrollbar-track {
+    /* -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3); */
+    -webkit-box-shadow: inset 0 0 6px rgba(158, 48, 48, 0.651);
+}
+
+.IceCream::-webkit-scrollbar-thumb {
+    /* background-color: darkgrey; */
+    /* outline: 1px solid slategrey; */
+    background-color: #99a8e3;
+    outline: 1px solid slategrey;
+}
+
+@media (min-width: 500px) and (min-height: 400px) {
+    .IceCream {
+        width: 350px;
+        height: 300px;
+    }
+}
+
+@media (min-width: 500px) and (min-height: 401px) {
+    .IceCream {
+        width: 450px;
+        height: 400px;
+    }
+}
+
+@media (min-width: 1000px) and (min-height: 700px) {
+    .IceCream {
+        width: 700px;
+        height: 600px;
+    }
+}

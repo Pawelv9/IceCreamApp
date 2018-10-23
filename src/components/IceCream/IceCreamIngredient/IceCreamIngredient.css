@@ -1,0 +1,68 @@
+.IceCreamBottom {
+    height: 13%;
+    width: 30%;
+    /* background: linear-gradient(#baec14, #5ec808); */
+    border-radius: 0 0 30px 30px;
+    /* display: inline-block; */
+    /* vertical-align: middle; */
+    border-top: solid 30px rgb(44, 204, 111);
+    border-left: solid 30px transparent;
+    border-right: solid 30px transparent;
+    /* box-shadow: inset -15px 0 #a3610a; */
+    margin: 2% auto;
+    /* box-sizing: border-box; */
+}
+
+.IceCreamTop {
+    height: 7%;
+    width: 30%;
+    background: linear-gradient(#31cce7, #22aac2);
+    border-radius: 50% 50% 20% 20%;
+    box-shadow: inset -15px 0 #0b6e80;
+    margin: 1% auto;
+    position: relative;
+    margin-top: 20%;
+}
+
+
+/* Meat */
+
+.Strawberry {
+    width: 30%;
+    height: 8%;
+    margin: 1% auto;
+    background: linear-gradient(#ad1313, #790a0a);
+    border-radius: 15px;
+}
+
+
+/* Cheese */
+
+.Lemon {
+    width: 30%;
+    height: 4.5%;
+    margin: 1% auto;
+    background: linear-gradient(#ccc014, #a59b09);
+    border-radius: 20px;
+}
+
+
+/* Salad */
+
+.Blackberry {
+    width: 30%;
+    height: 7%;
+    margin: 1% auto;
+    background: linear-gradient(#d80dce, #8a0b83);
+    border-radius: 20px;
+}
+
+
+/* Bacon */
+
+.Ocean {
+    width: 30%;
+    height: 3%;
+    margin: 1% auto;
+    background: linear-gradient(#112786, #2444d1)
+}
